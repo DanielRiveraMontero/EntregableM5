@@ -29,5 +29,5 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
-        github_token: ${{ secrets.igual }}
+        github_token: ${{ secrets.Igual }}
         publish_dir: ./output/wwwroot
