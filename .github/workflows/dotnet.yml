@@ -29,5 +29,5 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
-        github_token: ${{ secrets.CANSINOS }}
+        github_token: ${{ secrets.igual }}
         publish_dir: ./output/wwwroot
